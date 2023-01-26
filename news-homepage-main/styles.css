@@ -39,3 +39,46 @@ li {
 	list-style: none;
 	margin: 20px 0px;
 }
+
+p {
+	line-height: 1.5rem;
+	font-size: 15px;
+	margin-top: 0px;
+}
+
+button {
+	color: white;
+	padding: 15px 30px;
+	text-transform: uppercase;
+	font-family: "Inter", sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 4px;
+	border: 1px;
+}
+
+.top-bar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 25px 0px;
+}
+
+.logo-top {
+	width: 50px;
+}
+
+.side-filter {
+	position: absolute;
+	top: 0;
+	left: -120px;
+	width: 120px;
+	height: 700px;
+	background-color: hsla(240, 100%, 5%, 0.397);
+}
+
+.close-b {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
