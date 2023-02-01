@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <style>
+	@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+</style>
+<script src="app.js"> </script>
 <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="/news-homepage-main/assets/images/favicon-32x32.png">
   
@@ -28,7 +32,8 @@
 					<li class="categories">
 						<a href="#">Categories</a></li>
           <nav id="navigation-menu" class="navigation-menu">
-            <div class="side-filter"></div>
+			<div class="side-filter">
+			<img src="/news-homepage-main/assets/images/icon-menu-close.svg"alt="close-menu"aria-label="x"class="close-b"id="close-b"/>
             <ul>
               <li><a href="#">Home</a></li>
               <li><a href="#">New</a></li>
@@ -36,13 +41,18 @@
               <li><a href="#">Trending</a></li>
               <li><a href="#">Categories</a></li>
             </ul>
-          </nav>
-				<img src="/news-homepage-main/assets/images/icon-menu-close.svg"alt="close-menu"aria-label="x"class="close-b"id="close-b"/>
+		  </nav>
+		  <div class="grid-container">
 				<img src="/news-homepage-main/assets/images/image-web-3-mobile.jpg"alt="geometric-blocks"aria-label="colorful-blocks"class="geo-blocks"/>
 				<img src="/news-homepage-main/assets/images/image-web-3-desktop.jpg"alt="geometric-blocks-large"aria-label="colorful-blocks-large"class="geo-blocks-dt"/>
+				<div class="top-title">
 				<h1>The Bright Future of Web 3.0?</h1>
+			</div>
+			<div class=""top-blurb-n-button>
 				<p>We dive into the next evolution of the webthat claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
 				<button>Read more</button>
+			</div>
+			<div class="new-section">
 				<h2>New</h2>
         <h3>Hydrogen VS Electric Cars</h3>
         <hr>
@@ -52,21 +62,32 @@
         <p>What are the possible adverse effects of on-demand AI image generation	</p>
 				<h3>Is VC Funding Drying Up?</h3>
 					<p>	Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+				</div>
+				<div class="tech-section">
+					<div class="tech-container">
 						<img src="/news-homepage-main/assets/images/image-retro-pcs.jpg"alt="retro-pc"aria-label="retro-computer"class="retro-pc-pic"/>
-							<h4>Reviving Retro PCs</h4>
-							<p> What happens when old PCs are given modern upgrades?</p>
+					</div>
+					<p class="number">01</p>
+						<h4>Reviving Retro PCs</h4>
+						<p class="blurb">
+							 What happens when old PCs are given modern upgrades?</p>
+						</div>
+						<div class="tech-container tech two">
 							<img src="/news-homepage-main/assets/images/image-top-laptops.jpg" alt="keyboard-keys" aria-label="lit-keyboard-keys" class="lit-keyboard"/>
-							<p>02</p>
+							<p class="number">02</p>
 							<h4>Top 10 Laptops of 2022</h4>
-							<p>Our best picks for various needsand budgets.</p>
+							<p class="blurb">Our best picks for various needsand budgets.</p>
 							<img src="/news-homepage-main/assets/images/image-gaming-growth.jpg"alt="playstation-controller"aria-label="playstation-controller-and-hand"class="playstation-c">
-							<p>03</p>
+						</div>
+							<p class="number">03</p>
 							<h4>The Growth of Gaming</h4>
-							<p>How the pandemic has sparkedfresh opportunities.</p>
+							<p class="blurb">How the pandemic has sparkedfresh opportunities.</p>
 		</main>
   </div>
+</div>
 </body>
 <footer>
+<script src="app.js"></script>
   Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
   Coded by <a href="#">Bilal Shahzad</a>.
 </footer>
