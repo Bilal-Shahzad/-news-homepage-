@@ -31,8 +31,8 @@ on.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/Bilal-Shahzad?tab=overview&from=2023-01-01&to=2023-01-31
+- Live Site URL:https://news-homepage-dek5.vercel.app/
 
 ## My process
 
